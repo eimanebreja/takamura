@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ft-area {
+    background: #F9FAE4;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.ft-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.ft-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.ft-logo-contact {
+    flex-basis: 33%;
+}
+
+.ft-logo img {
+    width: 80%;
+}
+
+.ft-address {
+    padding-top: 30px;
+
+}
+
+.ft-address p {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #606060;
+}
+
+.ft-contact {
+    padding-top: 20px;
+}
+
+.ft-contact p {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #606060;
+}
+
+.ft-contact p span {
+    padding-left: 5px;
+    line-height: 20px;
+    font-size: 34px;
+    color: #D3DA21;
+}
+
+.ft-btn {
+    margin-top: 20px;
+    text-decoration: none;
+    display: block;
+    width: 250px;
+    color: #D3DA21;
+    border: 1px solid #D3DA21;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    font-size: 16px;
+}
+
+.ft-menu {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.ft-menu-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    justify-content: flex-start;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #606060;
+    flex-basis: 40%;
+    transition: .4s;
+}
+
+.ft-menu-1:hover {
+    transition: .4s;
+    opacity: .6;
+}
+
+.ft-icon img {
+    width: 35px;
+}
+
+.ft-link {
+    padding-left: 20px;
+}
+
+
+.ft-menu-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    justify-content: flex-start;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #606060;
+    flex-basis: 60%;
+    transition: .4s;
+}
+
+.ft-menu-2:hover {
+    transition: .4s;
+    opacity: .6;
+}
+
+.ft-cont-info {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .ft-area {
+        background: #F9FAE4;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .ft-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .ft-body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .ft-logo-contact {
+        flex-basis: 100%;
+    }
+
+    .ft-logo {
+        text-align: center;
+    }
+
+    .ft-logo img {
+        width: 70%;
+    }
+
+    .ft-address {
+        display: none;
+        padding-top: 30px;
+
+    }
+
+    .ft-address p {
+        font-size: 19px;
+        font-weight: bold;
+        line-height: 25px;
+        color: #606060;
+    }
+
+    .ft-contact {
+        display: none;
+        padding-top: 20px;
+    }
+
+    .ft-contact p {
+        font-size: 19px;
+        font-weight: bold;
+        line-height: 25px;
+        color: #606060;
+    }
+
+    .ft-contact p span {
+        padding-left: 5px;
+        line-height: 20px;
+        font-size: 34px;
+        color: #D3DA21;
+    }
+
+    .ft-btn {
+        margin-top: 20px;
+        text-decoration: none;
+        display: block;
+        width: 250px;
+        color: #D3DA21;
+        border: 1px solid #D3DA21;
+        height: 40px;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        border-radius: 24px;
+        font-size: 16px;
+    }
+
+    .ft-menu {
+        padding-top: 10px;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .ft-menu-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        justify-content: flex-start;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 25px;
+        color: #606060;
+        flex-basis: 45%;
+        padding-top: 20px;
+        transition: .4s;
+    }
+
+
+
+    .ft-icon img {
+        width: 25px;
+        display: flex;
+        align-items: center;
+    }
+
+    .ft-link {
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .ft-menu-2 {
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        justify-content: flex-start;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 25px;
+        color: #606060;
+        flex-basis: 55%;
+    }
+
+    .ft-cont-info {
+        display: block;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .ft-address2 {
+        padding-top: 20px;
+
+    }
+
+    .ft-address2 p {
+        font-size: 19px;
+        font-weight: bold;
+        line-height: 25px;
+        color: #606060;
+    }
+
+    .ft-contact2 {
+        padding-top: 20px;
+    }
+
+    .ft-contact2 p {
+        font-size: 19px;
+        font-weight: bold;
+        line-height: 25px;
+        color: #606060;
+    }
+
+    .ft-contact2 p span {
+        padding-left: 5px;
+        line-height: 20px;
+        font-size: 28px;
+        color: #D3DA21;
+    }
+
+    .ft-btn2 {
+        margin: 0 auto;
+        margin-top: 20px;
+        text-decoration: none;
+        display: flex;
+        width: 250px;
+        color: #D3DA21;
+        border: 1px solid #D3DA21;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 24px;
+        font-size: 16px;
+    }
+
+
+}
